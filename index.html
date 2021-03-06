@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="header">
+        <div id="img">
+            <img src="logo.png" alt="not found">
+            <img src="logo.png" alt="not found">
+            <img src="logo.png" alt="not found">
+            <img src="logo.png" alt="not found">
+        </div>
+        <div id="navi">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Donator</a></li>
+                <li><a href="#">Need Blood</a></li>
+                <li><a href="#">Camps</a></li>
+                <input class="search" type="text" size="20">
+                <button class="search" type="submit">Search</button>
+            </ul>
+        </div>
+    </div>
+    <div id="register">
+        <center>
+            <div id="text" style="float: left;width: 220px;height:380px; ">
+                <p>Name of Donor</p>
+                <p>Password</p>
+                <p>Confirm Password</p>
+                <p>DoB</p>
+                <p>Mobile No.</p>
+                <p>Select your blood group</p>
+            </div>
+            <div id="input" style="float: left;width: 240px;height: 380px;">
+                <input type="text" placeholder="Name of Donar" name="name" required><br>
+                <input type="password" placeholder="Password" name="psw" required><br>
+                <input type="password" placeholder="Confirm Password" name="psw" required><br>
+                <input type="date" placeholder="DOB" name="DOB" required><br>
+                <input type="number" placeholder="Contact No." name="Number" required><br>
+                <select>
+                    <option>A+</option>
+                    <option>A-</option>
+                    <option>B+</option>
+                    <option>B-</option>
+                    <option>AB+</option>
+                    <option>AB-</option>
+                    <option>O+</option>
+                    <option>O-</option>
+                </select>
+            </div>
+            <button type="submit" formaction="#">Register</button>
+        </center>
+
+    </div>
+    <div class="footer">
+        All Rights Reserved
+    </div>
+</body>
+
+</html>
